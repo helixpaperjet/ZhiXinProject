@@ -3,6 +3,13 @@ var latest = dataJSON.latest;
 var dataSet = dataJSON.data.data;
 var newestBuild = dataSet[dataSet.length - 1][0];
 var downloadBase = dataJSON.data.downloadBase;
+var inputBuildNumber = document.getElementById("build-number")
+var inputName = document.getElementById("name")
+var inputNumber = document.getElementById("number")
+var inputStatus = document.getElementById("status")
+var inputDescription = document.getElementById("description")
+var inputDownloadType = document.getElementById("download-type")
+var inputDownloadData = document.getElementById("download-data")
 var Data = /** @class */ (function () {
     function Data(buildNumber, name, number, status, description, download) {
         this.data = {};
@@ -25,6 +32,15 @@ function checkValid(buildNumber) {
     return returnValue;
 }
 checkValid(dataJSON);
-var newJSON = new Data(3, "二月更新", "0.2.0.0", "Beta", "ehrgerhi", { "type": "updater", "data": "UpdateCenter/3/update.exe" });
+var newJSON = new Data(
+    inputBuildNumber.value,
+    inputName.value,
+    inputNumber.value,
+    inputStatus.value,
+    inputDescription.value,
+    {
+        "type": inputDownloadType,
+        "data": inputDownloadData
+    });
 console.log(newJSON);
 console.log(JSON.stringify(newJSON));
