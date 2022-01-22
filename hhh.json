@@ -1,0 +1,21 @@
+{
+    "latest-version":114514, //int
+    "project-list": [
+        {
+            "project-name": "Something1",
+            "latest-version": 123456 //int
+        },
+        {
+            "project-name": "Something2",
+            "latest-version": 123456 //int
+        },
+        {
+            "project-name": "Something3",
+            "latest-version": 123456 //int
+        },
+        {
+            "project-name": "Something4",
+            "latest-version": 123456 //int
+        }
+    ]
+}

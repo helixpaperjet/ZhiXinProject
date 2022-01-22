@@ -1,0 +1,16 @@
+//http://update.zyghit.cn/update/api.php?action=check-version&client=3&project=UpdateCenter
+{
+    "code": 1002,
+    "msg": "请求成功，服务端为更旧版本。",
+    "data": {
+        "type": "updater",
+        "update-uri": "https:\/\/update.zyghit.cn\/projects\/UpdateCenter\/2\/update.exe",
+        "new-version": {
+            "name": "初出茅庐",
+            "number": "0.1.0.1",
+            "status": "Alpha",
+            "build-number": 2,
+            "description": "[=] 修复了一些bug"
+        }
+    }
+}
