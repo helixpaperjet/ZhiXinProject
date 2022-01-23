@@ -9,7 +9,7 @@ We seek to improve the API User's experience with the API. What previously neede
 ## JSON format
 Each software package is associated with a file containing a JSON string, storing its update information.  
 A valid JSON string should contain these properties:
-```json
+```jsonc
 {
     "latest": /*int*/,
     "data": {
