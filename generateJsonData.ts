@@ -1,3 +1,5 @@
+/*
+Old TS file
 const dataJSON = require("./reference/UpdateCenter.json")
 const latest = dataJSON.latest
 const dataSet = dataJSON.data.data
@@ -31,3 +33,4 @@ checkValid(dataJSON)
 let newJSON = new Data(3, "二月更新", "0.2.0.0", "Beta", "ehrgerhi", {"type": "updater", "data":"UpdateCenter/3/update.exe"})
 console.log(newJSON)
 console.log(JSON.stringify(newJSON));
+*/

@@ -1,6 +1,6 @@
 {
+    "latest": "3",
     "data": {
-        "downloadBase": "https://update.zyghit.cn/projects/",
         "fields": [
             "buildNumber",
             "name",
@@ -36,17 +36,17 @@
                 }
             ],
             [
-                3,
-                "二月更新",
-                "0.2.0.0",
-                "Beta",
-                "ehrgerhi",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
                 {
-                    "type": "updater",
-                    "data": "UpdateCenter/3/update.exe"
+                    "type": "3",
+                    "data": "3"
                 }
             ]
         ]
     },
-    "latest": 3
+    "downloadBase": "https://update.zyghit.cn/projects/"
 }

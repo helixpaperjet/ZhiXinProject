@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
-    <title>ZGIT Update System</title>
+    <title>至远光辉更新系统</title>
     <script src="./generateJsonData.js" type="module"></script>
     <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -14,34 +14,32 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Update Publisher</h1><a href="/index.html">简体中文</a>
+    <h1>更新发布器</h1><a href="/input-en.html">English</a>
     <fieldset>
-        <legend>Target project URL: <input id="project-url"/><button id="check">Check</button></legend>
+        <legend>目标工程URL: <input id="project-url"/><button id="check">检测</button></legend>
         <p id="result"></p>
         <form>
-            <label>Build Number</label><br />
+            <label>构件号</label><br />
             <input id="build-number"/><br />
-            <label>Update Name</label><br />
+            <label>更新名</label><br />
             <input id="name"/><br />
-            <label>Version Number</label><br />
+            <label>版本号</label><br />
             <input id="number"/><br />
-            <label>Version Status</label><br />
+            <label>版本状态</label><br />
             <input id="status"/><br />
-            <label>Update Description</label><br />
+            <label>更新描述</label><br />
             <textarea id="description"></textarea><br />
-            <label>Download Type</label><br />
+            <label>下载类型</label><br />
             <input id="download-type"/><br />
-            <label>Download Data</label><br />
-            <span id="download-base-span">
-                <p id="download-base-insert"></p><input id="download-data"/><br />
-            </span>
+            <label>下载数据URL</label><br />
+            <p id="download-base-insert"></p><input id="download-data"/><br />
         </form>
-        <button id="btn-submit">Submit</button><br />
+        <button id="btn-submit">提交</button><br />
     </fieldset>
-    <h2>Export JSON:</h2>
-    <p id="json-export">N/A</p>
+    <h2>导出的JSON字符串:</h2>
+    <p id="json-export">无</p>
     <footer>
-        <p>&copy;2022 paperjet & Tianqi</p>
+        <p>&copy;2022 paperjet & 天启</p>
         
     </footer>
 </body>
